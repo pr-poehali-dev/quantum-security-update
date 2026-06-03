@@ -5,16 +5,16 @@ export default function PricingSection() {
 
   const pricing = {
     starter: {
-      monthly: 0,
-      annually: 0,
+      monthly: 29900,
+      annually: 24900,
     },
     professional: {
-      monthly: 1990,
-      annually: 1590,
+      monthly: 59900,
+      annually: 49900,
     },
     enterprise: {
-      monthly: 9990,
-      annually: 7990,
+      monthly: 0,
+      annually: 0,
     },
   };
 
@@ -42,13 +42,13 @@ export default function PricingSection() {
           </div>
 
           <div className="self-stretch text-center flex justify-center flex-col text-[#49423D] text-3xl md:text-5xl font-semibold leading-tight md:leading-[60px] font-serif tracking-tight">
-            Выберите подходящий план для вашего бизнеса
+            Выберите формат сопровождения
           </div>
 
           <div className="self-stretch text-center text-[#605A57] text-base font-normal leading-7 font-sans">
-            Масштабируйте операции с гибкими тарифами, которые растут вместе с вашей командой.
+            Прозрачные тарифы без скрытых платежей — платите только
             <br />
-            Начните бесплатно, переходите на платный план когда будете готовы.
+            за реальную работу по вашим тендерам.
           </div>
         </div>
       </div>
@@ -120,9 +120,9 @@ export default function PricingSection() {
             <div className="flex-1 max-w-full md:max-w-none self-stretch px-6 py-5 border border-[#E0DEDB] overflow-hidden flex flex-col justify-start items-start gap-12 bg-[rgba(255,255,255,0)]">
               <div className="self-stretch flex flex-col justify-start items-center gap-9">
                 <div className="self-stretch flex flex-col justify-start items-start gap-2">
-                  <div className="text-[rgba(55,50,47,0.90)] text-lg font-medium leading-7 font-sans">Стартовый</div>
+                  <div className="text-[rgba(55,50,47,0.90)] text-lg font-medium leading-7 font-sans">Старт</div>
                   <div className="w-full max-w-[242px] text-[rgba(41,37,35,0.70)] text-sm font-normal leading-5 font-sans">
-                    Идеально для частных лиц и небольших команд, которые только начинают.
+                    Для малого бизнеса: разовое участие в 1–3 тендерах в месяц.
                   </div>
                 </div>
 
@@ -152,7 +152,7 @@ export default function PricingSection() {
                       </span>
                     </div>
                     <div className="text-[#847971] text-sm font-medium font-sans">
-                      в {billingPeriod === "monthly" ? "месяц" : "год"}, за пользователя.
+                      в {billingPeriod === "monthly" ? "месяц" : "год"} за сопровождение.
                     </div>
                   </div>
                 </div>
@@ -160,18 +160,18 @@ export default function PricingSection() {
                 <div className="self-stretch px-4 py-[10px] relative bg-[#37322F] shadow-[0px_2px_4px_rgba(55,50,47,0.12)] overflow-hidden rounded-[99px] flex justify-center items-center cursor-pointer hover:bg-[#2A2520] transition-colors">
                   <div className="w-full h-[41px] absolute left-0 top-[-0.5px] bg-gradient-to-b from-[rgba(255,255,255,0.20)] to-[rgba(0,0,0,0.10)] mix-blend-multiply"></div>
                   <div className="flex justify-center flex-col text-[#FBFAF9] text-[13px] font-medium leading-5 font-sans">
-                    Начать бесплатно
+                    Оставить заявку
                   </div>
                 </div>
               </div>
 
               <div className="self-stretch flex flex-col justify-start items-start gap-2">
                 {[
-                  "До 3 проектов",
-                  "Базовые инструменты документации",
-                  "Поддержка сообщества",
-                  "Стандартные шаблоны",
-                  "Базовая аналитика",
+                  "До 3 тендеров в месяц",
+                  "Подбор и анализ закупок",
+                  "Подготовка заявки и документов",
+                  "Проверка на соответствие требованиям",
+                  "Поддержка менеджера",
                 ].map((feature, index) => (
                   <div key={index} className="self-stretch flex justify-start items-center gap-[13px]">
                     <div className="w-4 h-4 relative flex items-center justify-center">
@@ -197,9 +197,9 @@ export default function PricingSection() {
             <div className="flex-1 max-w-full md:max-w-none self-stretch px-6 py-5 bg-[#37322F] border border-[rgba(55,50,47,0.12)] overflow-hidden flex flex-col justify-start items-start gap-12">
               <div className="self-stretch flex flex-col justify-start items-center gap-9">
                 <div className="self-stretch flex flex-col justify-start items-start gap-2">
-                  <div className="text-[#FBFAF9] text-lg font-medium leading-7 font-sans">Профессиональный</div>
+                  <div className="text-[#FBFAF9] text-lg font-medium leading-7 font-sans">Бизнес</div>
                   <div className="w-full max-w-[242px] text-[#B2AEA9] text-sm font-normal leading-5 font-sans">
-                    Расширенные возможности для растущих команд и бизнеса.
+                    Для активных поставщиков: неограниченное число тендеров.
                   </div>
                 </div>
 
@@ -229,7 +229,7 @@ export default function PricingSection() {
                       </span>
                     </div>
                     <div className="text-[#D2C6BF] text-sm font-medium font-sans">
-                      в {billingPeriod === "monthly" ? "месяц" : "год"}, за пользователя.
+                      в {billingPeriod === "monthly" ? "месяц" : "год"} за сопровождение.
                     </div>
                   </div>
                 </div>
@@ -237,21 +237,21 @@ export default function PricingSection() {
                 <div className="self-stretch px-4 py-[10px] relative bg-[#FBFAF9] shadow-[0px_2px_4px_rgba(55,50,47,0.12)] overflow-hidden rounded-[99px] flex justify-center items-center cursor-pointer hover:bg-gray-100 transition-colors">
                   <div className="w-full h-[41px] absolute left-0 top-[-0.5px] bg-gradient-to-b from-[rgba(255,255,255,0)] to-[rgba(0,0,0,0.10)] mix-blend-multiply"></div>
                   <div className="flex justify-center flex-col text-[#37322F] text-[13px] font-medium leading-5 font-sans">
-                    Начать
+                    Оставить заявку
                   </div>
                 </div>
               </div>
 
               <div className="self-stretch flex flex-col justify-start items-start gap-2">
                 {[
-                  "Безлимитные проекты",
-                  "Расширенные инструменты документации",
-                  "Приоритетная поддержка",
-                  "Пользовательские шаблоны",
-                  "Продвинутая аналитика",
-                  "Командное сотрудничество",
-                  "Доступ к API",
-                  "Пользовательские интеграции",
+                  "Неограниченное число тендеров",
+                  "Подбор и анализ закупок",
+                  "Подготовка полного пакета документов",
+                  "Юридическая проверка заявки",
+                  "Сопровождение переговоров",
+                  "Контроль подписания контракта",
+                  "Персональный тендерный менеджер",
+                  "Приоритетная поддержка 24/7",
                 ].map((feature, index) => (
                   <div key={index} className="self-stretch flex justify-start items-center gap-[13px]">
                     <div className="w-4 h-4 relative flex items-center justify-center">
@@ -277,37 +277,17 @@ export default function PricingSection() {
                 <div className="self-stretch flex flex-col justify-start items-start gap-2">
                   <div className="text-[rgba(55,50,47,0.90)] text-lg font-medium leading-7 font-sans">Корпоративный</div>
                   <div className="w-full max-w-[242px] text-[rgba(41,37,35,0.70)] text-sm font-normal leading-5 font-sans">
-                    Полное решение для крупных организаций и предприятий.
+                    Для крупных компаний с индивидуальными условиями и командой под ключ.
                   </div>
                 </div>
 
                 <div className="self-stretch flex flex-col justify-start items-start gap-2">
                   <div className="flex flex-col justify-start items-start gap-1">
-                    <div className="relative h-[60px] flex items-center text-[#37322F] text-5xl font-medium leading-[60px] font-serif">
-                      <span className="invisible">{pricing.enterprise[billingPeriod]} руб.</span>
-                      <span
-                        className="absolute inset-0 flex items-center transition-all duration-500"
-                        style={{
-                          opacity: billingPeriod === "annually" ? 1 : 0,
-                          transform: `scale(${billingPeriod === "annually" ? 1 : 0.8})`,
-                          filter: `blur(${billingPeriod === "annually" ? 0 : 4}px)`,
-                        }}
-                      >
-                        {pricing.enterprise.annually} руб.
-                      </span>
-                      <span
-                        className="absolute inset-0 flex items-center transition-all duration-500"
-                        style={{
-                          opacity: billingPeriod === "monthly" ? 1 : 0,
-                          transform: `scale(${billingPeriod === "monthly" ? 1 : 0.8})`,
-                          filter: `blur(${billingPeriod === "monthly" ? 0 : 4}px)`,
-                        }}
-                      >
-                        {pricing.enterprise.monthly} руб.
-                      </span>
+                    <div className="relative h-[60px] flex items-center text-[#37322F] text-4xl font-medium leading-[60px] font-serif">
+                      Индивидуально
                     </div>
                     <div className="text-[#847971] text-sm font-medium font-sans">
-                      в {billingPeriod === "monthly" ? "месяц" : "год"}, за пользователя.
+                      обсуждается при обращении.
                     </div>
                   </div>
                 </div>
@@ -315,21 +295,21 @@ export default function PricingSection() {
                 <div className="self-stretch px-4 py-[10px] relative bg-[#37322F] shadow-[0px_2px_4px_rgba(55,50,47,0.12)] overflow-hidden rounded-[99px] flex justify-center items-center cursor-pointer hover:bg-[#2A2520] transition-colors">
                   <div className="w-full h-[41px] absolute left-0 top-[-0.5px] bg-gradient-to-b from-[rgba(255,255,255,0.20)] to-[rgba(0,0,0,0.10)] mix-blend-multiply"></div>
                   <div className="flex justify-center flex-col text-[#FBFAF9] text-[13px] font-medium leading-5 font-sans">
-                    Связаться с отделом продаж
+                    Обсудить условия
                   </div>
                 </div>
               </div>
 
               <div className="self-stretch flex flex-col justify-start items-start gap-2">
                 {[
-                  "Все из Профессионального",
-                  "Персональный менеджер",
-                  "Поддержка 24/7 по телефону",
-                  "Индивидуальный онбординг",
-                  "Расширенные функции безопасности",
-                  "Интеграция SSO",
-                  "Индивидуальные контракты",
-                  "White-label решения",
+                  "Всё из тарифа Бизнес",
+                  "Выделенная команда специалистов",
+                  "Стратегия участия в тендерах",
+                  "Обжалование результатов торгов",
+                  "Сопровождение исполнения контракта",
+                  "Претензионная работа с заказчиком",
+                  "Еженедельная отчётность",
+                  "Персональный куратор проекта",
                 ].map((feature, index) => (
                   <div key={index} className="self-stretch flex justify-start items-center gap-[13px]">
                     <div className="w-4 h-4 relative flex items-center justify-center">

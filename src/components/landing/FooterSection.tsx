@@ -6,10 +6,10 @@ export default function FooterSection() {
         <div className="h-auto p-4 md:p-8 flex flex-col justify-start items-start gap-8">
           {/* Бренд */}
           <div className="self-stretch flex justify-start items-center gap-3">
-            <div className="text-center text-[#49423D] text-xl font-semibold leading-4 font-sans">Бриллиант</div>
+            <div className="text-center text-[#49423D] text-xl font-semibold leading-4 font-sans">ТендерПро</div>
           </div>
           <div className="text-[rgba(73,66,61,0.90)] text-sm font-medium leading-[18px] font-sans">
-            Биллинг без усилий
+            Тендеры под ключ
           </div>
 
           {/* Социальные сети */}
@@ -61,19 +61,19 @@ export default function FooterSection() {
             </div>
             <div className="flex flex-col justify-end items-start gap-2">
               <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Возможности
+                Услуги
               </div>
               <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
                 Тарифы
               </div>
               <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Интеграции
+                Кейсы
               </div>
               <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Превью в реальном времени
+                Торговые площадки
               </div>
               <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Мульти-агентное кодирование
+                Как это работает
               </div>
             </div>
           </div>
@@ -89,10 +89,10 @@ export default function FooterSection() {
                 Наша команда
               </div>
               <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Карьера
+                Отзывы клиентов
               </div>
               <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Бренд
+                Реквизиты
               </div>
               <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
                 Контакты
@@ -105,16 +105,16 @@ export default function FooterSection() {
             <div className="text-[rgba(73,66,61,0.50)] text-sm font-medium leading-5 font-sans">Ресурсы</div>
             <div className="flex flex-col justify-center items-center gap-2">
               <div className="self-stretch text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Условия использования
+                Политика конфиденциальности
               </div>
               <div className="self-stretch text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                API документация
+                Договор-оферта
               </div>
               <div className="self-stretch text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Документация
+                Инструкции по 44-ФЗ
               </div>
               <div className="self-stretch text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Сообщество
+                FAQ
               </div>
               <div className="self-stretch text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
                 Поддержка

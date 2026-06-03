@@ -118,13 +118,13 @@ export default function Index() {
                 <div className="flex justify-center items-center">
                   <div className="flex justify-start items-center">
                     <div className="flex flex-col justify-center text-[#2F3037] text-sm sm:text-base md:text-lg lg:text-xl font-medium leading-5 font-sans">
-                      Бриллиант
+                      ТендерПро
                     </div>
                   </div>
                   <div className="pl-3 sm:pl-4 md:pl-5 lg:pl-5 hidden sm:flex flex-row gap-2 sm:gap-3 md:gap-4 lg:gap-4">
                     <div className="flex justify-start items-center">
                       <div className="flex flex-col justify-center text-[rgba(49,45,43,0.80)] text-xs md:text-[13px] font-medium leading-[14px] font-sans">
-                        Продукты
+                        Услуги
                       </div>
                     </div>
                     <div className="flex justify-start items-center">
@@ -134,7 +134,7 @@ export default function Index() {
                     </div>
                     <div className="flex justify-start items-center">
                       <div className="flex flex-col justify-center text-[rgba(49,45,43,0.80)] text-xs md:text-[13px] font-medium leading-[14px] font-sans">
-                        Документация
+                        Кейсы
                       </div>
                     </div>
                   </div>
@@ -154,12 +154,12 @@ export default function Index() {
               <div className="w-full max-w-[937px] lg:w-[937px] flex flex-col justify-center items-center gap-3 sm:gap-4 md:gap-5 lg:gap-6">
                 <div className="self-stretch rounded-[3px] flex flex-col justify-center items-center gap-4 sm:gap-5 md:gap-6 lg:gap-8">
                   <div className="w-full max-w-[748.71px] lg:w-[748.71px] text-center flex justify-center flex-col text-[#37322F] text-[24px] sm:text-[36px] md:text-[52px] lg:text-[80px] font-normal leading-[1.1] sm:leading-[1.15] md:leading-[1.2] lg:leading-[96px] font-serif px-2 sm:px-4 md:px-0">
-                    Автоматизация биллинга
+                    Тендерное сопровождение под ключ
                   </div>
                   <div className="w-full max-w-[506.08px] lg:w-[506.08px] text-center flex justify-center flex-col text-[rgba(55,50,47,0.80)] sm:text-lg md:text-xl leading-[1.4] sm:leading-[1.45] md:leading-[1.5] lg:leading-7 font-sans px-2 sm:px-4 md:px-0 lg:text-lg font-medium text-sm">
-                    Оптимизируйте процесс выставления счетов
+                    Выигрывайте тендеры без лишних усилий —
                     <br className="hidden sm:block" />
-                    с бесшовной автоматизацией от Бриллиант.
+                    от поиска закупки до получения контракта.
                   </div>
                 </div>
               </div>
@@ -169,7 +169,7 @@ export default function Index() {
                   <div className="h-10 sm:h-11 md:h-12 px-6 sm:px-8 md:px-10 lg:px-12 py-2 sm:py-[6px] relative bg-[#37322F] shadow-[0px_0px_0px_2.5px_rgba(255,255,255,0.08)_inset] overflow-hidden rounded-full flex justify-center items-center cursor-pointer hover:bg-[#2A2520] transition-colors">
                     <div className="w-20 sm:w-24 md:w-28 lg:w-44 h-[41px] absolute left-0 top-[-0.5px] bg-gradient-to-b from-[rgba(255,255,255,0)] to-[rgba(0,0,0,0.10)] mix-blend-multiply"></div>
                     <div className="flex flex-col justify-center text-white text-sm sm:text-base md:text-[15px] font-medium leading-5 font-sans">
-                      Начать бесплатно
+                      Получить консультацию
                     </div>
                   </div>
                 </div>
@@ -246,22 +246,22 @@ export default function Index() {
 
                 <div className="flex-1 px-0 sm:px-2 md:px-0 flex flex-col md:flex-row justify-center items-stretch gap-0">
                   <FeatureCard
-                    title="Планирование расписания"
-                    description="Управляйте подписками клиентов и выставлением счетов с помощью автоматизированных инструментов."
+                    title="Поиск и анализ закупок"
+                    description="Находим подходящие тендеры на всех торговых площадках и оцениваем шансы на победу ещё до подачи заявки."
                     isActive={activeCard === 0}
                     progress={activeCard === 0 ? progress : 0}
                     onClick={() => handleCardClick(0)}
                   />
                   <FeatureCard
-                    title="Аналитика и инсайты"
-                    description="Превращайте бизнес-данные в практические выводы с помощью аналитики в реальном времени."
+                    title="Подготовка документации"
+                    description="Формируем полный пакет заявки, составляем техническое предложение и проверяем соответствие требованиям."
                     isActive={activeCard === 1}
                     progress={activeCard === 1 ? progress : 0}
                     onClick={() => handleCardClick(1)}
                   />
                   <FeatureCard
-                    title="Командная работа"
-                    description="Держите команду в курсе с общими дашбордами и совместными рабочими процессами."
+                    title="Сопровождение до контракта"
+                    description="Ведём переговоры, защищаем интересы на всех этапах и контролируем подписание договора с заказчиком."
                     isActive={activeCard === 2}
                     progress={activeCard === 2 ? progress : 0}
                     onClick={() => handleCardClick(2)}
@@ -294,12 +294,12 @@ export default function Index() {
                       text="Доверие"
                     />
                     <div className="w-full max-w-[472.55px] text-center flex justify-center flex-col text-[#49423D] text-xl sm:text-2xl md:text-3xl lg:text-5xl font-semibold leading-tight md:leading-[60px] font-sans tracking-tight">
-                      Уверенность, подкрепленная результатами
+                      Нам доверяют компании по всей России
                     </div>
                     <div className="self-stretch text-center text-[#605A57] text-sm sm:text-base font-normal leading-6 sm:leading-7 font-sans">
-                      Наши клиенты достигают большего каждый день,
+                      Сотни поставщиков уже выиграли тендеры с нашей помощью
                       <br className="hidden sm:block" />
-                      потому что их инструменты просты, мощны и понятны.
+                      и заключили контракты на сотни миллионов рублей.
                     </div>
                   </div>
                 </div>
@@ -362,12 +362,12 @@ export default function Index() {
                       text="Возможности"
                     />
                     <div className="w-full max-w-[598.06px] lg:w-[598.06px] text-center flex justify-center flex-col text-[#49423D] text-xl sm:text-2xl md:text-3xl lg:text-5xl font-semibold leading-tight md:leading-[60px] font-sans tracking-tight">
-                      Создано для ясности и сосредоточенной работы
+                      Весь цикл тендера — в одних руках
                     </div>
                     <div className="self-stretch text-center text-[#605A57] text-sm sm:text-base font-normal leading-6 sm:leading-7 font-sans">
-                      Оставайтесь сфокусированными с инструментами, которые организуют,
+                      Берём на себя каждый шаг: от мониторинга закупок
                       <br />
-                      связывают и превращают информацию в уверенные решения.
+                      до подписания контракта и сопровождения исполнения.
                     </div>
                   </div>
                 </div>
@@ -388,10 +388,10 @@ export default function Index() {
                     <div className="border-b border-r-0 md:border-r border-[rgba(55,50,47,0.12)] p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col justify-start items-start gap-4 sm:gap-6">
                       <div className="flex flex-col gap-2">
                         <h3 className="text-[#37322F] text-lg sm:text-xl font-semibold leading-tight font-sans">
-                          Умно. Просто. Гениально.
+                          Мониторинг закупок 24/7
                         </h3>
                         <p className="text-[#605A57] text-sm md:text-base font-normal leading-relaxed font-sans">
-                          Ваши данные красиво организованы, чтобы вы видели все четко без лишнего шума.
+                          Отслеживаем все торговые площадки и присылаем только релевантные тендеры под ваш профиль.
                         </p>
                       </div>
                       <div className="w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex items-center justify-center overflow-hidden">
@@ -407,10 +407,10 @@ export default function Index() {
                     <div className="border-b border-[rgba(55,50,47,0.12)] p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col justify-start items-start gap-4 sm:gap-6">
                       <div className="flex flex-col gap-2">
                         <h3 className="text-[#37322F] font-semibold leading-tight font-sans text-lg sm:text-xl">
-                          Ваша работа синхронизирована
+                          Слаженная командная работа
                         </h3>
                         <p className="text-[#605A57] text-sm md:text-base font-normal leading-relaxed font-sans">
-                          Каждое обновление мгновенно передается вашей команде, делая совместную работу легкой и быстрой.
+                          Юристы, аналитики и тендерные специалисты работают вместе — вы получаете единый результат.
                         </p>
                       </div>
                       <div className="w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex overflow-hidden text-right items-center justify-center">
@@ -426,10 +426,10 @@ export default function Index() {
                     <div className="border-r-0 md:border-r border-[rgba(55,50,47,0.12)] p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col justify-start items-start gap-4 sm:gap-6 bg-transparent">
                       <div className="flex flex-col gap-2">
                         <h3 className="text-[#37322F] text-lg sm:text-xl font-semibold leading-tight font-sans">
-                          Легкая интеграция
+                          Интеграция с ЭТП и ЕИС
                         </h3>
                         <p className="text-[#605A57] text-sm md:text-base font-normal leading-relaxed font-sans">
-                          Все ваши любимые инструменты подключаются в одном месте и работают слаженно.
+                          Работаем со всеми крупными площадками: Сбербанк-АСТ, РТС-тендер, ЕЭТП, Росэлторг и другими.
                         </p>
                       </div>
                       <div className="w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex overflow-hidden justify-center items-center relative bg-transparent">
@@ -443,10 +443,10 @@ export default function Index() {
                     <div className="p-4 sm:p-6 md:p-8 lg:p-12 flex flex-col justify-start items-start gap-4 sm:gap-6">
                       <div className="flex flex-col gap-2">
                         <h3 className="text-[#37322F] text-lg sm:text-xl font-semibold leading-tight font-sans">
-                          Цифры, которые говорят
+                          Результаты, которые говорят сами
                         </h3>
                         <p className="text-[#605A57] text-sm md:text-base font-normal leading-relaxed font-sans">
-                          Отслеживайте рост с точностью и превращайте данные в решения, которым можно доверять.
+                          Отслеживайте статус заявок и суммы выигранных контрактов в реальном времени.
                         </p>
                       </div>
                       <div className="w-full h-[200px] sm:h-[250px] md:h-[300px] rounded-lg flex overflow-hidden items-center justify-center relative">
